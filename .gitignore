@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.localgit rm -r --cached node_modules
+git add .gitignore
+git add .
+git commit -m "Remove node_modules from repository"
+git push
